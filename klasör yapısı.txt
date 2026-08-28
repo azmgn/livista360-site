@@ -1,0 +1,12 @@
+📁 livista360/
+├── index.html          (Bu dosya)
+├── index-en.html       (İngilizce versiyon - sonra oluşturacağız)
+├── images/             (Görseller)
+│   ├── profile.jpg
+│   ├── video-poster-1.jpg
+│   ├── video-poster-2.jpg
+│   └── video-poster-3.jpg
+└── video/              (Videolar)
+    ├── standart-uyum.mp4
+    ├── surec-entegrasyonu.mp4
+    └── kvkk-gdpr-uyumu.mp4
