@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: azmigun/livista360-site
+  branch: main # ya da master (GitHub'daki ana dalınız)
+
+media_folder: "images/blog" # Yüklenen resimlerin kaydedileceği yer
+public_folder: "/images/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog Yazıları"
+    folder: "blog" # Yazıların kaydedileceği klasör
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Yayınlanma Tarihi", name: "date", widget: "datetime" }
+      - { label: "Özet Metin", name: "description", widget: "text" }
+      - { label: "Kapak Görseli", name: "image", widget: "image" }
+      - { label: "Yazı İçeriği", name: "body", widget: "markdown" }
