@@ -1,0 +1,6 @@
+# www olmayan trafiği www adresine yönlendir (SSL ve SEO uyumu için)
+http://livista360.com.tr/*  https://www.livista360.com.tr/:splat 301!
+https://livista360.com.tr/* https://www.livista360.com.tr/:splat 301!
+
+# Ana sayfa yönlendirmesi
+/*  /index.html  200
